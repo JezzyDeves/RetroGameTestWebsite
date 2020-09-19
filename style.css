@@ -1,0 +1,106 @@
+.navbar {
+width: 100%;
+}
+
+#about {
+background-color: whitesmoke;
+}
+
+#game {
+    text-align: center;
+      background-color: crimson;
+      padding: 8px;
+      margin: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border-style: double;
+      border-color: rgb(99, 5, 5);
+      border-width: 10px;
+}
+
+.main {
+    background-color: black;
+    margin: auto;
+    padding: 1em;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.pannel {
+    margin: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    position: relative;
+    background-color: rgb(99, 92, 94);
+    border-style: solid;
+    border-color: whitesmoke;
+}
+#banner {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(238, 103, 103);
+  }
+
+  #title {
+      text-align: center;
+      background-color: crimson;
+      padding: 12px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  body {
+      background-image: url(img/bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  header {
+      background-color: black;
+      border-style: solid;
+      border-width: 6px;
+  }
+
+  footer {
+      background-color: white;
+  }
+
+  button {
+      background-color: darkred;
+      border-radius: 8px;
+      font-size: 16px;
+      padding: 10px 16px;
+      text-align: center;
+      display: inline-block;
+      transition-duration: 0.4s;
+  }
+
+  button:hover {
+      color: darkred;
+      background-color: deeppink;
+  }
